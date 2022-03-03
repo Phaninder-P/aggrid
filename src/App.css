@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.custom-tooltip {
+  width: 155px;
+  height: 30px;
+  border: 1px solid cornflowerblue;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-tooltip p {
+  margin: 5px;
+  white-space: nowrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.custom-tooltip p:first-of-type {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  color: brown;
+  padding-left: 10px;
+}
+
+.tracking {
+  font-size: 12px;
+  color: mediumblue;
+  padding-left: 10px;
+}
+
+.green svg{
+    color: green;
   }
+.blue svg{
+  color: blue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.brown svg{
+  color: brown;
 }
-
-.App-link {
-  color: #61dafb;
+.pink svg{
+  color: pink;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.purple svg{
+  color: purple;
+}
+.yellow svg{
+  color: yellow;
+}
+.orange svg{
+  color: orange;
 }
